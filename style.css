@@ -105,6 +105,7 @@
 }
 
 .center {
+
     border: 1px solid white;
     background-color: lightgray;
     text-align: center;
@@ -115,13 +116,16 @@
 }
 
 .center .table {
-
+    display: table;
+    ;
     /* căn giữa, 2 bên cách đều */
     /* tùy chọn: đặt độ rộng để bảng không full */
+    width: 95%;
     margin: 25px auto;
     /* hoặc 600px, 700px... */
     overflow-x: hidden;
-
+    align-items: start;
+    text-align: justify;
 }
 
 .skill {
