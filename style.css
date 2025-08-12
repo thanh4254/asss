@@ -1,0 +1,259 @@
+.title {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding: 40px 16px;
+}
+
+.title img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.title h1 {
+    margin: 8px 0 0;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+/* Tên màu xanh */
+.title .accent {
+    color: #1e90ff;
+}
+
+/* Dòng mô tả màu xám nhạt */
+.title .lead {
+    margin: 0;
+    color: #6b7280;
+    /* xám */
+    font-size: 16px;
+}
+
+.about {
+    background-color: lightgray;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 0 0 16px;
+    color: #334155;
+    /* xám đậm */
+    font-weight: 800;
+}
+
+
+.about .hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    /* trái | phải */
+    column-gap: 10px;
+    align-items: start;
+    justify-items: start;
+    /* canh giữa nội dung theo cột */
+    margin-bottom: 0px;
+}
+
+.about .hobbies p {
+    grid-column: 2;
+    margin-top: -1px;
+
+}
+
+
+
+.about .hobbies .list {
+    grid-column: 1;
+    justify-self: start;
+    /* căn trái trong cột */
+    margin: 0;
+    padding-left: 110px;
+    text-align: left;
+}
+
+#q1 {
+    text-align: center;
+}
+
+#q2 {
+    font-style: italic;
+    border-left: 4px solid #1e90ff;
+    padding-left: 7px;
+    color: gray;
+}
+
+.about .song {
+    text-align: center;
+    align-items: center;
+}
+
+.about .movie {
+    text-align: center;
+    align-items: center;
+
+}
+
+.center {
+    border: 1px solid white;
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.center .table {
+
+    /* căn giữa, 2 bên cách đều */
+    /* tùy chọn: đặt độ rộng để bảng không full */
+    margin: 25px auto;
+    /* hoặc 600px, 700px... */
+    overflow-x: hidden;
+
+}
+
+.skill {
+    border: 1px solid white;
+    background-color: lightgray;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.skill h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.skill ul {
+    padding-left: 110px;
+    text-align: left;
+}
+
+.ex {
+    border: 1px solid white;
+    background-color: lightgray;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+.ex h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.ex ul {
+    padding-left: 110px;
+    text-align: left;
+}
+
+.ed {
+    border: 1px solid white;
+    background-color: lightgray;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+.ed h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.ed ul {
+    padding-left: 110px;
+    text-align: left;
+}
+
+.pr {
+    border: 1px solid white;
+    background-color: lightgray;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+.pr h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.pr ul {
+    padding-left: 110px;
+    text-align: left;
+}
+
+.a h2 {
+    text-align: center;
+    align-items: center;
+
+}
+
+.a1 {
+    border: 3px solid white;
+    background-color: lightgray;
+    margin-top: 0px;
+    border-radius: 10px;
+    max-width: 560px;
+    margin: 1px auto;
+    padding: 10px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+    /* display: flex;
+    justify-content: space-between;
+    /* or: space-around | space-evenly */
+    align-items: center;
+    /* căn giữa theo trục dọc (tùy) 
+    gap: 12px; */
+
+}
+
+.a1 label {
+    display: block;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #374151;
+}
+
+.a1 input[type="text"] {
+    width: 95%;
+    height: 22px;
+    padding: 10px 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    outline: none;
+
+    margin-bottom: 17px;
+}
+
+.a1 input[type="text"]::placeholder {
+    color: #9ca3af;
+}
+
+.a1 .btn {
+    margin-top: 20px;
+    background: #1e90ff;
+    color: #fff;
+    border: 3px;
+    padding: 12px 14px;
+    height: 86px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(30, 144, 255, .35);
+}
+
+.a1 .btn:hover {
+    filter: brightness(.95);
+}

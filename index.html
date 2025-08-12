@@ -2,65 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My homeWork</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <img src="/images/z6213362837883_3f6e819152d5ee92b12dca6c3a875a9b.jpg" width="300px" title="thanh"
-        alt="anh cua thanh">
-    <h1>Hello,My name is <span style="color: blue;">Nguyen Duc Thanh</span></h1>
-    <p>I am in my final year FPT University.I'm planning to continue my education next year</p>
-    <div>
-        My hobby is:
-        <ul>
-            <li>playing video games</li>
-            <li>watching movie</li>
-            <li>reading book</li>
-        </ul>
-    </div>
-    <div>
-        <p style="">My favorite quote is:</p>
-        <p style="margin-left: 40px;">"The only way to do great work is to love what you do"</p>
+    <div class="title">
+        <img src="image.jpg.jpg" alt="anh cua thanh">
+        <h1>Hello, my name is <span class="accent">Nguyen Duc Thanh</span></h1>
+        <p class="lead">I am in my final year at FPT University. I'm planning to continue my education next year.</p>
     </div>
 
-    <div>
-        <p>My favorite song is:</p>
-        <audio src="music.mp3" controls autoplay muted></audio>
-
-    </div>
-    <div>
-        <p>My favorite movie is:</p>
-        <video src="movie.mp4" controls style="margin-top: 50px; width: 300px;" autoplay muted></video>
-
-    </div>
-    <p>My contact:</p>
-    <table width="600px" bgcolor="black">
-        <tr bgcolor="lightgray">
-            <th>Facebook</th>
-            <th>Email</th>
-            <th>Phone</th>
-        </tr>
-        <tr bgcolor="white" style="text-decoration: underline;">
-            <td><a href="https://www.facebook.com/nguyen.uc.thanh.322562/" target="_blank style="
-                    style="color: blue;">Nguyen
-                    Duc Thanh</a></td>
-            <td><a href="mailto:nguyenthanh31102005@gmail.com" target="_blank">nguyenthanh31102005@gmail.com</a></td>
-            <td style="color: blue; "><a>0773568688</a></td>
-        </tr>
-    </table>
-    <form method="post" action=" ">
-        <div>
-            <h2>Do you want something to say to me?</h2>
-            <label for="question">Question</label>
-            <input type="text" id="question" name="question">
-            <button type="submit">Submit</button>
+    <div class="about">
+        <h2>About Me</h2>
+        <div class="hobbies">
+            <p>My hobbies include:</p>
+            <ul class="list">
+                <li>playing video games</li>
+                <li>watching movie</li>
+                <li>reading book</li>
+            </ul>
         </div>
 
-    </form>
+        <div class="quote">
+            <p id="q1">My favorite quote is:</p>
+            <p id="q2">“The only way to do great work is to love what you do.”</p>
+        </div>
 
+        <div class="song">
+            <p>My favorite song is:</p>
+            <audio src="music.mp3" controls autoplay muted></audio>
+        </div>
 
+        <div class="movie">
+            <p>My favorite movie is:</p>
+            <video src="movie.mp4" controls style="margin-top: 10px; width: 300px;" autoplay muted></video>
+        </div>
+
+    </div>
+    <div class="center">
+        <h2>Contact Information</h2>
+        <table class="table" width="660px" style="border-collapse: collapse;">
+            <tr style="background-color:#1e90ff;">
+                <th style="color: white;">Facebook</th>
+                <th style="color: white;">Email</th>
+                <th style="color: white;">Phone</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com/nguyen.uc.thanh.322562/" target="_blank" style="color: blue;">
+                        Nguyen Duc Thanh
+                    </a>
+                </td>
+                <td>
+                    <a href="mailto:nguyenthanh31102005@gmail.com">nguyenthanh31102005@gmail.com</a>
+                </td>
+                <td><a href="tel:0773568688">0773568688</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="skill">
+        <h2>SKILLs</h2>
+        <ul>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Programming Languages: Python, Java</li>
+            <li>Database Management: SQL, MongoDB</li>
+            <li>Version Control: Git, GitHub</li>
+        </ul>
+    </div>
+
+    <div class="ex">
+        <h2>Experience</h2>
+        <ul>
+            <li>Intern - Web Developer at Tech Company (June 2023 - August 2023)
+
+            </li>
+            <p>Worked on various web development projects, focusing on front-end<br>
+                development using modern frameworks.
+            </p>
+            <li>Freelancer (January 2022 - Present)</li>
+            <p>Developed and maintained websites for various clients, including e-commerce <br>
+                sites and personal
+                portfolios.</p>
+        </ul>
+    </div>
+    <div class="ed">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Computer Science at FPT University (Expected 2025)
+
+            </li>
+            <p>Specializing in software engineering and web development.
+            </p>
+
+        </ul>
+    </div>
+    <div class="pr">
+        <h2>Projects</h2>
+        <ul>
+            <li> Portfolio Website
+            </li>
+
+            <p>A personal portfolio website showcasing my projects and skills. Built with HTML, CSS,<br> and JavaScript.
+            </p>
+
+            <li> Portfolio Website
+            </li>
+            <p>A web-based task management application using Python and Flask for the backend,<br> and React for the
+                frontend.
+            </p>
+
+        </ul>
+    </div>
+    <div class="a">
+        <h2>Do you want something to say to me?</h2>
+        <form method="post" action="">
+            <div class="a1">
+
+                <label for="question">Question</label>
+                <br>
+                <input type="text" id="question" name="question" placeholder="Type your question here">
+                <br>
+                <button type="submit"
+                    style="background-color: #1e90ff; color: white; width: 60px; border-radius: 5px; height: 30px;">Submit</button>
+            </div>
+
+        </form>
+    </div>
 
 </body>
 
